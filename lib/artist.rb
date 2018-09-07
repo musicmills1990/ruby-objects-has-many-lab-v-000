@@ -24,7 +24,7 @@ end
 
 def self.song_count
   binding.pry
-  songs.size
+  @songs.size
 end
 
 
