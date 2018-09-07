@@ -8,7 +8,6 @@ def initialize(name)
 end
 
 def add_song(song)
-  binding.pry
   @songs << song
   song.artist = self
 end
@@ -24,8 +23,7 @@ def add_song_by_name(name)
 end
 
 def self.song_count
-  binding.pry
-
+  self.add_song(song).count
 end
 
 
