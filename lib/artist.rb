@@ -24,7 +24,7 @@ end
 
 def self.song_count
   binding.pry
-  self.artist.name.size
+  songs.size
 end
 
 
