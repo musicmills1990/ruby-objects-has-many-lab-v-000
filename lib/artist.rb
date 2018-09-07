@@ -23,6 +23,7 @@ def add_song_by_name(name)
 end
 
 def self.song_count
+  binding.pry
   self.songs.count
 end
 
