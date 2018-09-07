@@ -11,8 +11,10 @@ def initialize(name)
 end
 
 def artist_name
-  binding.pry
-  self.artist.name
+  if self.artist.name == nil
+    nil
+  else
+    self.artist.name
 end
 
 
