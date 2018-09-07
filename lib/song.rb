@@ -5,6 +5,7 @@ attr_accessor :artist, :name
 
 def initialize(name)
   @name = name
+  @@all << name
 end
 
 def artist_name
