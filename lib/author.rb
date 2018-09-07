@@ -24,7 +24,8 @@ def add_post_by_title(title)
 end
 
 def self.post_count
-  Post.all
+  binding.pry
+  Post.all.size
 end
 
 
