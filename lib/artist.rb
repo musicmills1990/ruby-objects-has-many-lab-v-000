@@ -23,7 +23,7 @@ def add_song_by_name(name)
 end
 
 def self.song_count
-  self.songs.size
+  Song.all.size
 end
 
 
