@@ -12,7 +12,7 @@ def artist_name
   if self.artist == nil
     nil
   else
-    Post.name
+    self.artist.name
   end
 end
 
